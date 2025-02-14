@@ -1,8 +1,10 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="log-filter:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/log-filter</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/log_filter_jar</output-path>
     <root id="archive" name="log-filter.jar">
-      <element id="module-output" name="log-filter.main" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>
