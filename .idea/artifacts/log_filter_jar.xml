@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="log-filter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/log-filter</output-path>
+    <root id="archive" name="log-filter.jar">
+      <element id="module-output" name="log-filter.main" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): Execution begin.
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): List of all
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): List of all options
+[2010-04-24 07:51:55,081] DEBUG - [main] BulkOpsClient.doImport(): Execution begin.
+[2010-04-24 07:51:55,862] DEBUG - [main] BulkOpsClient.sendValidationRequest():
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.sendValidationRequest():
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.submitImportRequest():
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.submitImportRequest():
+[2010-04-24 07:52:07,284] DEBUG - [main] BulkOpsClient.submitImportRequest():
+[2010-04-24 07:52:07,300] DEBUG - [main] BulkOpsClient.doImport(): Execution
+[2010-04-24 07:52:09,487] DEBUG - [main] BulkOpsClient.main(): Execution complete.
