@@ -32,10 +32,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-
         if (args.length < 1) {
-            LOGGER.severe("Usage: java -jar log-filter.jar <path-to-input-file> " +
+            System.out.println("Usage: java -jar log-filter.jar <path-to-input-file> " +
                     "-o<path-to-output-file> -r\"include-filter-regex\"");
             return;
         }
