@@ -5,3 +5,4 @@
 - FIX: Problem with character encoding, which caused inconsistency in different terminals
 - MOD: Handling regex
 - MOD: Extended instruction text
+
