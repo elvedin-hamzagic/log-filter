@@ -36,14 +36,16 @@ public class Main {
 
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.out.println("\nUsage: java -jar log-filter.jar <path-to-input-file> " +
-                    "-o<path-to-output-file> -r\"include-filter-regex\"\n");
-
-            System.out.println("NOTE:");
-            System.out.println("Some terminals cannot handle arguments which contains double quotes," +
-                    "in that case you can use the escape sequence \\u0022.");
-            System.out.println("Some terminals will not pass non-ascii characters in arguments correctly," +
-                    "in that case you can use the character unicode escape sequence.\n");
+            System.out.println(
+                    """
+                    
+                    Usage: java -jar log-filter.jar <path-to-input-file> \
+                    -o<path-to-output-file> -r"include-filter-regex"
+                    
+                    NOTE:
+                    Some terminals cannot handle arguments that contain double quotes or non-ASCII characters.
+                    In such cases, you can use Unicode escape sequences; for double quotes, it's \\u0022.
+                    """);
             return;
         }
 
